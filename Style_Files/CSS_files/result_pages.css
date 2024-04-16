@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600");
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../Images/schitts_creek.jpg");
+    background-color: black;
+    background-size: cover;
+  }
+
+#result{
+    font-family: "Playfair Display", Vidaloka, serif;
+    text-align: justify;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#textnav{
+  color: black;
+  text-align: left;
+  font-size: 12.5px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+  }
+
+  img {
+    width: 500px;
+  }
+
+  p {
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+.topnav{
+    position: relative;
+    background-color: #131313;
+    overflow: hidden;
+  }
+  
+.topnav a {
+    font-family: "Playfair Display", Vidaloka, serif;
+    float: left;
+    background-color: #131313;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: rgb(255,205,0);
+    color: white;
+  }
+  
+.topnav a.active {
+    background-color: rgb(255,205,0);
+    color: white;
+  }
+
+button {
+    font-family: "Playfair Display", Vidaloka, serif;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 20px;
+  }
+  
+button:hover {
+    background-color: rgb(255,205,0);
+    color: black;
+  }
