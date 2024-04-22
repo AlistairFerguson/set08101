@@ -108,25 +108,25 @@ function showResult() {
     const scoresArray = [Dscore, Ascore, Jscore, Mscore, Sscore, Pscore, Tscore];
     scoresArray.sort(function(a,b){return b-a})
     if (scoresArray[0] === Dscore){
-        window.open("http://127.0.0.1:5500/Main/Quiz/Results_Pages/David.html", "_self");
+        window.open("https://alistairferguson.github.io/set08101/Quiz/Results_Pages/David.html", "_self");
     }
     else if (scoresArray[0] === Ascore){
-        window.open("http://127.0.0.1:5500/Main/Quiz/Results_Pages/Alexis.html", "_self");
+        window.open("https://alistairferguson.github.io/set08101/Quiz/Results_Pages/Alexis.html", "_self");
     }
     else if (scoresArray[0] === Jscore){
-        window.open("http://127.0.0.1:5500/Main/Quiz/Results_Pages/Johnny.html", "_self");
+        window.open("https://alistairferguson.github.io/set08101/Quiz/Results_Pages/Johnny.html", "_self");
     }
     else if (scoresArray[0] === Mscore){
-        window.open("http://127.0.0.1:5500/Main/Quiz/Results_Pages/Moira.html", "_self");
+        window.open("https://alistairferguson.github.io/set08101/Quiz/Results_Pages/Moira.html", "_self");
     }
     else if (scoresArray[0] === Sscore){
-        window.open("http://127.0.0.1:5500/Main/Quiz/Results_Pages/Stevie.html", "_self");
+        window.open("https://alistairferguson.github.io/set08101/Quiz/Results_Pages/Stevie.html", "_self");
     }
     else if (scoresArray[0] === Pscore){
-        window.open("http://127.0.0.1:5500/Main/Quiz/Results_Pages/Patrick.html", "_self");
+        window.open("https://alistairferguson.github.io/set08101/Quiz/Results_Pages/Patrick.html", "_self");
     }
     else if (scoresArray[0] === Tscore){
-        window.open("http://127.0.0.1:5500/Main/Quiz/Results_Pages/Ted.html", "_self");
+        window.open("https://alistairferguson.github.io/set08101/Quiz/Results_Pages/Ted.html", "_self");
     }
   }
   
